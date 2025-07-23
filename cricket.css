@@ -1,0 +1,26 @@
+body{
+  text-align: center;
+  background-color: antiquewhite;
+}
+.choice-button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(134, 216, 118);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.choice-image {
+  height: 75px;
+}
+
+.js-win{
+  color: rgb(0, 255, 21);
+}
+.js-lost{
+  color: red;
+}
+.js-draw{
+  color: grey;
+}

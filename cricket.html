@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="x-icon" href="images/icon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bat Ball Stump Game</title>
+  <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+  <h1>Bat Ball Stump Game</h1>
+  
+  <div class="buttons">
+    <button class="choice-button" id="bat" onclick="showResult('Bat')">
+      <img src="images/bat.png" alt="bat image" class="choice-image">
+    </button>
+    <button class="choice-button" id="ball" onclick="showResult('Ball')">
+      <img src="images/ball.png" alt="ball image" class="choice-image">
+    </button>
+    <button class="choice-button" id="stump" onclick="showResult('Stump')">
+      <img src="images/stump.png" alt="stump image" class="choice-image">
+    </button>
+  </div>
+  
+  <h3 id="user-move"></h3>
+  <h3 id="computer-move"></h3>
+  <h3 id="get-result"></h3>
+  <h3 id="score"></h3>
+  <button class="btn" id="reset" onclick="localStorage.clear(); resetScore()">Reset</button>
+
+<script src="cricket.js"></script>
+</body>
+</html>
